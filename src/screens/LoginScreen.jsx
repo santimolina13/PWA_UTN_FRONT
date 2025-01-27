@@ -1,7 +1,7 @@
 import React,{useContext}from 'react'
 import useForm from '../hooks/useForm'
 import ENVIROMENT from '../utils/constans/enviroment'
-import { AuthContext } from '../context/authContext'
+import { AuthContext } from '../context/AuthContext'
 import { Link , useNavigate} from 'react-router-dom'
 const LoginScreen = () => {
    const {login,isAuthenticatedState}=useContext(AuthContext)

@@ -1,0 +1,30 @@
+<!-- import React from 'react'
+import ENVIROMENT from '../utils/constans/enviroment'
+import { getAuthenticatedHeaders } from '../fetching/customHeaders'
+
+
+
+const HomeScreen = () => {
+   const getWorkspaces=async()=>{
+    const response=await fetch(ENVIROMENT.API_URL+"/api/workspace",{
+    method:"GET",
+    headers:getAuthenticatedHeaders()})
+    const responsedata=await response.json()
+    console.log(responsedata)
+   }
+   getWorkspaces()
+  return (
+    <div>
+        <h1>Bienvenido a la app </h1>
+        <div>
+            <h2>Tus espacios de trabajo</h2>
+            <div>
+               
+                
+            </div>
+        </div>
+    </div>
+  )
+}
+
+export default HomeScreen -->

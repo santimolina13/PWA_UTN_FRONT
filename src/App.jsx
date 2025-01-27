@@ -6,7 +6,7 @@ import LoginScreen from './screens/LoginScreen'
 import Protectedroute from './components/ProtectedRoute'
 import HomeScreen from './screens/HomeScreen'
 import CreateWorkspacesScreen from './screens/CreateWorkspacesScreen'
-import WorkspaceScreen from './screens/workspaceScreen'
+import WorkspaceScreen from './screens/WorkspaceScreen'
 
 
 
